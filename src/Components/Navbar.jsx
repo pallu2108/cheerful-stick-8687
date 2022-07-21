@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import SignIn from "./SignIn";
 
 function Navbar(){
     return(
@@ -22,7 +23,8 @@ function Navbar(){
             <div>
                 <input style={{marginTop:"25px", marginLeft:"140px",height:"30px", paddingLeft:"20px", width:"170px"}} type="text" placeholder="search J.crew" ></input>
             </div>
-            <button style={{border:"none",height:"50px", width:"80px", marginLeft:"20px",marginTop:"13px", fontSize:"17px",backgroundColor:"white"}}>Sign In</button> 
+            {/* <button style={{border:"none",height:"50px", width:"80px", marginLeft:"20px",marginTop:"13px", fontSize:"17px",backgroundColor:"white"}} onClick={SignIn}>Sign In</button>  */}
+            <Link to="/signin" style={{textDecoration:"none"}}><p style={{color:"black",paddingLeft:"30px",fontSize:"16px",marginTop:"30px"}}>Sign In</p></Link>
         </div>
         <hr></hr>
         </div>
