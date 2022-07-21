@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 function Home(){
@@ -17,17 +19,15 @@ function Home(){
                     <h1 style={{fontFamily:"freight-big-pro,Times,serif",color:"tomato",paddingLeft:"350px",fontSize:"150px",fontWeight:"lighter",marginTop:"-80px"}}>dress code</h1>
                     <p style={{color:"white",fontSize:"18px",marginTop:"-80px",paddingLeft:"450px"}}>For the hottest day of the year...</p>
                 </figcaption>
-                </figure>
+                </figure> 
             </div>
-            <div style={{display:"grid",gridTemplateRows:"auto",gridTemplateColumns:"repeat(2,600px)",marginLeft:"130px"}}>
-              <img style={{width:"650px",height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img1.jpg" alt=""/>
+            <div style={{display:"grid",gridTemplateRows:"auto",gridTemplateColumns:"repeat(2,600px)",marginLeft:"130px"}} >
+              <img style={{width:"650px",height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img1.jpg" alt=""/>  
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img2.jpg" alt=""/>
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img3_a.jpg" alt=""/>
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul2/2022jul_0705_hp_w_img5.jpg" alt=""/>
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img5.jpg" alt=""/>
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img6.jpg" alt=""/>
-              
-              
             </div>
             <div style={{display:"flex",marginTop:"40px", marginLeft:"300px"}}>
                 <h1 style={{fontFamily:"freight-big-pro,Times,serif",fontWeight:"lighter"}}>Shop New Arrivals</h1>
@@ -124,6 +124,9 @@ function Home(){
               <img style={{height:"230px",width:"230px",paddingLeft:"20px"}} src="https://www.jcrew.com/s7-img-facade/BC108_PK5748_m?wid=416" alt=""/>
             </div>
             <hr></hr>
+            <div>
+                <Footer/>
+            </div>
         </div>
     )
 }
