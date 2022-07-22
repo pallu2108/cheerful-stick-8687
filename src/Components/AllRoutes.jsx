@@ -5,6 +5,7 @@ import HomePage from "./HomePage";
 import Kids from "./Kids";
 import Men from "./Men";
 import New from "./New";
+import NewArrivals from "./NewArrivals";
 import Sale from "./Sale";
 import SignIn from "./SignIn";
 import Stories from "./Stories";
@@ -26,6 +27,7 @@ function AllRoutes(){
                 <Route path="/stories" element={<Stories/>}></Route>
                 <Route path="/sale" element={<Sale/>}></Route>
                 <Route path="/signin" element={<SignIn/>}></Route>
+                <Route path="/newarrivals" element={<NewArrivals/>}></Route>
             </Routes>
         </div>
     )

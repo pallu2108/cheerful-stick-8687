@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom";
+import NewArrivals from "./NewArrivals";
+
 function New(){
     return(
-        <div></div>
+        <div>
+          <NewArrivals/>
+        </div>
     )
 }
 export default New;
