@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -12,6 +13,7 @@ function Home(){
                 <p style={{textAlign:"center"}}>Have a question?We can help.</p>
             </div>
             <div style={{marginBottom:"35px"}}>
+                <Link to="/newarrivals">
                 <figure>
                 <img style={{width:"100%"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img0_v2.jpg" alt="" />
                 <figcaption style={{position:"absolute",bottom:"4rem"}}>
@@ -20,8 +22,10 @@ function Home(){
                     <p style={{color:"white",fontSize:"18px",marginTop:"-80px",paddingLeft:"450px"}}>For the hottest day of the year...</p>
                 </figcaption>
                 </figure> 
+                </Link>
             </div>
-            <div style={{display:"grid",gridTemplateRows:"auto",gridTemplateColumns:"repeat(2,600px)",marginLeft:"130px"}} >
+            <Link to="/shirtandtops">
+            <div style={{display:"grid",gridTemplateRows:"auto",gridTemplateColumns:"repeat(2,600px)",marginLeft:"130px"}} >                
               <img style={{width:"650px",height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img1.jpg" alt=""/>  
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img2.jpg" alt=""/>
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img3_a.jpg" alt=""/>
@@ -29,6 +33,7 @@ function Home(){
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img5.jpg" alt=""/>
               <img style={{width:"650px", height:"650px"}} src="https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img6.jpg" alt=""/>
             </div>
+            </Link>
             <div style={{display:"flex",marginTop:"40px", marginLeft:"300px"}}>
                 <h1 style={{fontFamily:"freight-big-pro,Times,serif",fontWeight:"lighter"}}>Shop New Arrivals</h1>
                 <button style={{marginLeft:"20px",backgroundColor:"white",height:"50px",width:"150px",marginTop:"20px",border:"solid 0.5px",fontWeight:"bold"}}>Shop Women</button>

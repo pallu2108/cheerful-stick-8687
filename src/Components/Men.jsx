@@ -1,6 +1,12 @@
+import NewArrivals from "./NewArrivals";
+
 function Men(){
     return(
-        <div></div>
+        
+        <div>
+            <NewArrivals/>
+        </div>
+        
     )
 }
 export default Men;

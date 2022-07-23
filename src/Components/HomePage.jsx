@@ -1,6 +1,10 @@
+import Home from "./Home";
+
 function HomePage(){
     return(
-        <div></div>
+        <div>
+            <Home/>
+        </div>
     )
 }
 export default HomePage;

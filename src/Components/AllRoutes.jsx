@@ -7,6 +7,7 @@ import Men from "./Men";
 import New from "./New";
 import NewArrivals from "./NewArrivals";
 import Sale from "./Sale";
+import ShirtsAndTops from "./ShirtsAndTops";
 import SignIn from "./SignIn";
 import Stories from "./Stories";
 import Swim from "./Swim";
@@ -28,6 +29,7 @@ function AllRoutes(){
                 <Route path="/sale" element={<Sale/>}></Route>
                 <Route path="/signin" element={<SignIn/>}></Route>
                 <Route path="/newarrivals" element={<NewArrivals/>}></Route>
+                <Route path="/shirtandtops" element={<ShirtsAndTops/>}></Route>
             </Routes>
         </div>
     )
