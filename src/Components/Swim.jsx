@@ -1,6 +1,10 @@
+import NewArrivals from "./NewArrivals";
+
 function Swim(){
     return(
-        <div></div>
+        <div>
+            <NewArrivals/>
+        </div>
     )
 }
 export default Swim;

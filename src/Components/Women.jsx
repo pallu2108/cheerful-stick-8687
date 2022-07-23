@@ -1,6 +1,10 @@
+import ShirtsAndTops from "./ShirtsAndTops";
+
 function Women(){
     return(
-        <div></div>
+        <div>
+            <ShirtsAndTops/>
+        </div>
     )
 }
 export default Women;

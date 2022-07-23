@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-
-
 function Navbar(){
     return(
         <div>
@@ -25,6 +23,9 @@ function Navbar(){
             </div>
             {/* <button style={{border:"none",height:"50px", width:"80px", marginLeft:"20px",marginTop:"13px", fontSize:"17px",backgroundColor:"white"}} onClick={SignIn}>Sign In</button>  */}
             <Link to="/signin" style={{textDecoration:"none"}}><p style={{color:"black",paddingLeft:"30px",fontSize:"16px",marginTop:"30px"}}>Sign In</p></Link>
+        </div>
+        <div>
+        
         </div>
         <hr></hr>
         </div>
